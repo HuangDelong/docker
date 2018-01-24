@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: paulliu/mysql-slave:0.1
+        image: mysql-slave:v1
         ports:
         - containerPort: 3306
         env:
